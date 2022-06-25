@@ -1,7 +1,6 @@
 package org.example.capitulo1;
 
 import java.util.HashMap;
-import java.util.Map;
 
 public class NumberAsText {
     private HashMap<Character, String> numbersAsText = new HashMap<>() {{
