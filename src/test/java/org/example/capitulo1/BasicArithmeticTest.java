@@ -4,8 +4,10 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 
 class BasicArithmeticTest {
+    /* Write method int calc(int, int) that multiplies two variables, m and n of type int,
+       then divides the product by two, and outputs the remainder with respect to division by 7. */
 
-    private BasicArithmetic ba = new BasicArithmetic();
+    private final BasicArithmetic ba = new BasicArithmetic();
 
     @Test
     void itShouldCalcTwoNumbers() {
